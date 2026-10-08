@@ -1,9 +1,12 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html lang="pt-BR"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Diagnóstico 360° Decolar</title>
 <meta name="description" content="Diagnóstico 360° da Consultoria Decolar: responda 10 perguntas rápidas e descubra os gargalos da sua operação comercial.">
 <meta name="theme-color" content="#050505">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&display=swap">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&display=swap"></noscript>
 <style>
 /* Layout: palco preto único; uma coluna estreita (760px) para o quiz, hero dividido texto/foto, dourado só em ação, progresso e destaque. */
 :root{
@@ -185,7 +188,7 @@ input[aria-invalid="true"]{border-color:var(--err)}
 .bf b{display:block;color:var(--g4);letter-spacing:.14em;text-transform:uppercase;font-size:12px}
 .note{font-size:13px;color:var(--mute);margin-top:16px}
 .sel{user-select:all;color:var(--g4);font-weight:700}
-footer.site{padding-block:28px;border-top:1px solid var(--line);text-align:center;color:#6f6a60;font-size:12px}
+footer.site{padding-block:28px;border-top:1px solid var(--line);text-align:center;color:#9a958b;font-size:12px}
 
 @media (max-width:860px){
   .hero{grid-template-columns:1fr;gap:30px;padding-bottom:48px}
@@ -212,7 +215,7 @@ footer.site{padding-block:28px;border-top:1px solid var(--line);text-align:cente
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+t.src=v;s=b.getElementsByTagName(e)[0];var go=function(){setTimeout(function(){s.parentNode.insertBefore(t,s)},1)};b.readyState==='complete'?go():f.addEventListener('load',go)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '1916771439304645');
 fbq('track', 'PageView');
@@ -236,7 +239,7 @@ fbq('track', 'PageView');
       <p class="micro">🔒 Suas respostas são confidenciais.</p>
     </div>
     <div class="heroart">
-      <img class="duo" src="decolar-img/especialistas.webp" width="1760" height="1200" alt="Os dois especialistas da Consultoria Decolar" fetchpriority="high">
+      <img class="duo" src="decolar-img/especialistas-880.webp" srcset="decolar-img/especialistas-660.webp 660w, decolar-img/especialistas-880.webp 880w, decolar-img/especialistas-1320.webp 1320w, decolar-img/especialistas.webp 1760w" sizes="(max-width:860px) min(470px, calc(100vw - 40px)), 570px" width="1760" height="1200" alt="Os dois especialistas da Consultoria Decolar" fetchpriority="high">
       <div class="chip">DIAGNÓSTICO<span>360°</span></div>
       <svg class="chart" viewBox="0 0 240 120" aria-hidden="true"><g stroke="#C9962C" stroke-opacity=".25" fill="none"><path d="M0 100h240M0 70h240M0 40h240"/></g><path d="M6 104 50 86l36 8 44-38 34 10 62-56" fill="none" stroke="url(#lg)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="226" cy="14" r="6" fill="#F3D477"/><circle cx="226" cy="14" r="12" fill="#F3D477" fill-opacity=".2"/></svg>
       <button class="btn full" id="btn-start" type="button">Começar meu diagnóstico →</button>
